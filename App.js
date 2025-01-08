@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
+/*This is just for a text, what happens if i make changes*/
+
 export default function App() {
   const [age, setAge] = useState('')
   const [lower, setLower] = useState(0)
